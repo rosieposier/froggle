@@ -1,0 +1,37 @@
+.gradient-background {
+    background: linear-gradient(50deg, #606c38, #ccd5ae, #588157);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .icon-square {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: .75rem;
+    background-color: #adadad;
+  }
+
+  .card-header {
+    background-color: #ccd5ae;
+  }
+
+  #yaybtn {
+    background-color: #606c38;
+    color: azure;
+  }
